@@ -1,0 +1,27 @@
+.menuaside {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    width: 100%;
+    max-width: 60px;
+    min-height: 100vh;
+    background: rgba(254, 231, 205, 0.8);
+    border: solid 5px #F4F8FC;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.menuaside__avatar {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.menuaside__btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuaside__exit {
+    align-self: flex-end;
+}

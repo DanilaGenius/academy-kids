@@ -1,0 +1,16 @@
+.choiceOfSimulator {
+    display: block;
+    padding: 60px 0 100px 0;
+}
+.choiceOfSimulator__title {
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.choiceOfSimulator__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px
+}
