@@ -1,0 +1,72 @@
+.inputchoiceofnum {
+    display: block;
+    width: 100%;
+}
+
+.inputchoiceofnum__label {
+    display: block;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #694A04;
+    margin-bottom: 5px;
+}
+
+.inputchoiceofnum__input-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #694A04;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    height: 50px;
+    padding: 10px;
+}
+
+.inputchoiceofnum__input {
+    background: rgba(255, 255, 255, 0.5);
+    outline: none;
+    border-radius: 0px;
+    border: none;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #694A04;
+    width: 100%;
+}
+
+.inputchoiceofnum__control {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #FDE3A7;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.inputchoiceofnum__control-plus, .inputchoiceofnum__control-minus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 2px;
+    background: #694A04;
+}
+
+.inputchoiceofnum__control-plus:last-child {
+    width: 2px;
+    height: 10px;
+}
+
+.inputchoiceofnum__control:hover .inputchoiceofnum__control-plus,
+.inputchoiceofnum__control:hover .inputchoiceofnum__control-minus {
+    transform: translate(-50%, -50%) scale(1.2);
+}

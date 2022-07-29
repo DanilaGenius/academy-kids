@@ -9,11 +9,19 @@
     transform: scale(1.1);
 }
 
-.functionbutton__img {
-    display: block;
-    width: 40px;
-    height: 40px;
+.functionbutton__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #e9c16c;
 }
+
+.functionbutton__img {
+   display: block;
+
+}
+
 .functionbutton__text {
     display: block;
     margin-left: 15px;

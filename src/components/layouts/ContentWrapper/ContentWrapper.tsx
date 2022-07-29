@@ -1,12 +1,14 @@
 import "./ContentWrapper.scss";
-import ChoiceOfSimulator from "../ChoiceOfSimulator/ChoiceOfSimulator"
+import ChoiceOfSimulator from "../ChoiceOfSimulator/ChoiceOfSimulator";
+import WrapperForGames from "../WrapperForGames/WrapperForGames";
 
-const ContentWrapper: any = () => {
+
+const ContentWrapper: React.FC = () => {
     return (
-        <div className="contentWrapper">
-            <ChoiceOfSimulator />
+        <div className="contentwrapper">
+            <WrapperForGames title="Умножайка"/>
+            {/* <ChoiceOfSimulator /> */}
         </div>
-        
     )
 }
 

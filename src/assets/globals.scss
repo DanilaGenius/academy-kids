@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -7,22 +7,40 @@
 }
 
 h1 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
     font-size: 52px;
-    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 65px;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
-    font-size: 24px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 53px;
+    text-transform: uppercase;
 }
+
 h3 {
-    font-size: 99px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 h4 {
-    font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
 }
 
 h5 {

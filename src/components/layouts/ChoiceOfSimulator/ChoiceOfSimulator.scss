@@ -1,16 +1,19 @@
-.choiceOfSimulator {
+.choiceofsimulator {
     display: block;
     padding: 60px 0 100px 0;
 }
-.choiceOfSimulator__title {
+.choiceofsimulator__title {
     text-align: center;
     color: #FFFFFF;
-    text-transform: uppercase;
     margin-bottom: 40px;
 }
-.choiceOfSimulator__cards {
+.choiceofsimulator__cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px
+}
+
+.choiceofsimulator__card {
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
 }

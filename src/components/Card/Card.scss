@@ -7,28 +7,4 @@
     cursor: pointer;
 }
 
-.card__name {
-    position: absolute;
-    bottom: 20px;
-    right: 50%;
-    transform: translateX(50%);
-    display: block;
-    width: 166px;
-    height: 50px;
-    border-radius: 50px;
-    background: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    color: brown;
-}
 
-.card:hover .card__name {
-    background: #97CE4E;
-    color: #FFFFFF;
-}
-
-.card__text {
-    display: block;
-}
