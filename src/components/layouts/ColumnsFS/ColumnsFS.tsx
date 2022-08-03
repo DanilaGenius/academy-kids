@@ -1,12 +1,12 @@
-import "./Multiplication.scss"
+import "./ColumnsFS.scss"
 import InputNumber from "../../InputNumber/InputNumber"
 import DefaultButton from "../../DefaultButton/DefaultButton"
 
 
-const Multiplication: React.FC = () => {
+const ColumnsFS: React.FC = () => {
     return (
-        <div className="multiplication">
-            <div className="multiplication__inputs">
+        <div className="columns-fs">
+            <div className="columns-fs__inputs">
 
                 <InputNumber name="q" label="количество чисел" defaultValue="1" 
                     step={1} min={1} max={10} />
@@ -16,11 +16,11 @@ const Multiplication: React.FC = () => {
                     step={1} min={1} max={10} />
             </div>
 
-            <DefaultButton className="multiplication__btn-start"
+            <DefaultButton className="columns-fs__btn-start"
                 text="Начать" maxwidth="475px" padding="15px 100px" bg="#97CE4E" color="#FFFFFF" bgHover="green" colorHover="#FFFFFF" isHover={false} />
         </div>
     )
 }
 
 
-export default Multiplication
+export default ColumnsFS

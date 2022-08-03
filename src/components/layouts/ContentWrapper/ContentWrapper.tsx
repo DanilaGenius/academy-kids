@@ -6,7 +6,11 @@ import WrapperForGames from "../WrapperForGames/WrapperForGames";
 const ContentWrapper: React.FC = () => {
     return (
         <div className="contentwrapper">
-            <WrapperForGames title="Умножайка"/>
+            <WrapperForGames title="флеш-анзан"/>
+            {/* <WrapperForGames title="Флеш карты"/> */}
+            {/* <WrapperForGames title="Столбцы"/> */}
+            {/* <WrapperForGames title="Умножайка"/> */}
+            {/* <WrapperForGames title="Генератор"/> */}
             {/* <ChoiceOfSimulator /> */}
         </div>
     )

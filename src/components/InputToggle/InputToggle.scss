@@ -1,0 +1,33 @@
+.inputtoggle {
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.inputtoggle__title {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #694A04;
+    margin-right: 15px;
+    white-space: nowrap;
+}
+.inputtoggle__input {
+    width: 80px;
+    height: 40px;
+    border-radius: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 3px;
+    transition: 1s all;
+}
+.inputtoggle__input-move {
+    width: 35px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 50%;
+}

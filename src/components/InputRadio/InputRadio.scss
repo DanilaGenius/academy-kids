@@ -1,0 +1,41 @@
+
+.inputradio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.inputradio__label {
+    white-space: nowrap;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #694A04;
+    
+}
+.inputradio__input {
+    border: solid 2px #694A04;
+    margin-right: 10px;
+    background: #F4F8FCB2;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.inputradio__input-active {
+    background: #694A04;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: 1s;
+}

@@ -1,12 +1,12 @@
-import "./FlashCards.scss"
+import "./MultiplicationFS.scss"
 import InputNumber from "../../InputNumber/InputNumber"
 import DefaultButton from "../../DefaultButton/DefaultButton"
 
 
-const FlashCards: React.FC = () => {
+const MultiplicationFS: React.FC = () => {
     return (
-        <div className="flashcards">
-            <div className="flashcards__inputs">
+        <div className="multiplication-fs">
+            <div className="multiplication-fs__inputs">
 
                 <InputNumber name="q" label="количество чисел" defaultValue="1" 
                     step={1} min={1} max={10} />
@@ -16,11 +16,11 @@ const FlashCards: React.FC = () => {
                     step={1} min={1} max={10} />
             </div>
 
-            <DefaultButton className="flashcards__btn-start"
+            <DefaultButton className="multiplication-fs__btn-start"
                 text="Начать" maxwidth="475px" padding="15px 100px" bg="#97CE4E" color="#FFFFFF" bgHover="green" colorHover="#FFFFFF" isHover={false} />
         </div>
     )
 }
 
 
-export default FlashCards
+export default MultiplicationFS

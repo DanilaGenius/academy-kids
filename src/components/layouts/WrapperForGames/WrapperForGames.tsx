@@ -1,10 +1,13 @@
 import "./WrapperForGames.scss";
 import FunctionButton from "../../FunctionButton/FunctionButton";
-import FlashAnzan from "../FlashAnzan/FlashAnzan"
-import FlashCards from "../FlashCards/FlashCards"
-import Columns from "../Columns/Columns";
-import Multiplication from "../Multiplication/Multiplication";
-import Generator from "../Generator/Generator";
+
+import FlashAnzanFS from "../FlashAnzanFS/FlashAnzanFS"
+import FlashCardsFS from "../FlashCardsFS/FlashCardsFS"
+import ColumnsFS from "../ColumnsFS/ColumnsFS";
+import MultiplicationFS from "../MultiplicationFS/MultiplicationFS";
+import GeneratorFS from "../GeneratorFS/GeneratorFS";
+
+import FlashAnzanAS from "../FlashAnzanAS/FlashAnzanAS"
 
 export interface Props {
     title: string;
@@ -87,31 +90,63 @@ const WrapperForGames: React.FC<Props> = ({title}) => {
         function createFastSetting(key:string = keyLowerCase) {
             if (key === "флеш-анзан".toLocaleLowerCase()) {
                 return (
-                    <FlashAnzan />
+                    <FlashAnzanFS />
                 )
             }  
             
             if (key === "Флеш карты".toLocaleLowerCase()) {
                 return (
-                    <FlashCards />
+                    <FlashCardsFS />
                 )
             }
 
             if (key === "Столбцы".toLocaleLowerCase()) {
                 return (
-                    <Columns />
+                    <ColumnsFS />
                 )
             }
 
             if (key === "Умножайка".toLocaleLowerCase()) {
                 return (
-                    <Multiplication />
+                    <MultiplicationFS />
                 )
             }
 
             if (key === "Генератор".toLocaleLowerCase()) {
                 return (
-                    <Generator />                  
+                    <GeneratorFS />                  
+                )
+            }
+        }
+
+        function createAdvancedSetting(key:string = keyLowerCase) {
+            if (key === "флеш-анзан".toLocaleLowerCase()) {
+                return (
+                    <FlashAnzanAS />
+                )
+            }  
+            
+            if (key === "Флеш карты".toLocaleLowerCase()) {
+                return (
+                    '0'
+                )
+            }
+
+            if (key === "Столбцы".toLocaleLowerCase()) {
+                return (
+                    '0'
+                )
+            }
+
+            if (key === "Умножайка".toLocaleLowerCase()) {
+                return (
+                    '0'
+                )
+            }
+
+            if (key === "Генератор".toLocaleLowerCase()) {
+                return (
+                    '0'              
                 )
             }
         }
@@ -128,7 +163,8 @@ const WrapperForGames: React.FC<Props> = ({title}) => {
             </h2>
 
             {createControleBtns()}
-            {createFastSetting()}
+            {/* {createFastSetting()} */}
+            {createAdvancedSetting()}
    
         </div>
     )
